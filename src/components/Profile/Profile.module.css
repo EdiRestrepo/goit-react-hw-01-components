@@ -1,0 +1,66 @@
+.profile{
+    background: rgba(127, 152, 200, 0.3);
+    text-align: center;
+    padding: 60px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+
+.description{
+    background-color: white;
+    padding: 30px 40px 20px 40px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 5px 5px 5px 1px rgba(166, 170, 177, 0.307);
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tag, .location{
+    color: rgba(119, 126, 140, 0.5);
+    font-weight: 600;
+}
+
+.stats {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    border: 1px solid rgba(221, 225, 232, 0.932);
+    border-radius: 0 0 6px 6px;
+    box-shadow: 5px 5px 5px 1px rgba(166, 170, 177, 0.307);
+
+}
+
+.stats li{
+    display: flex;
+    flex-direction: column;
+    background: rgba(240, 242, 245, 0.932);
+    padding: 15px;
+}
+
+li:not(:last-child){
+    border-right: 1px solid rgba(221, 225, 232, 0.932);
+}
+
+.label{
+    font-size: 12px;
+    color: rgba(119, 126, 140, 0.5);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.quantity{
+    font-weight: 600;
+}
